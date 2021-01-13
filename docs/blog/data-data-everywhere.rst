@@ -21,12 +21,12 @@ Data streams itself right from when the gates of a stock exchange open to when i
 	2004-08-23  110.750003  113.479998  109.049999  109.399998  18256100.0       54.754754
 	...
 
-Data is accessed through the :py:mod:`Quandl <quandl>` API stored remotely at sources in the form of CSV (Comma-Seperated Values) files. Information retrieved from such a CSV file is then wrapped around a :py:class:`pandas.DataFrame <pandas.DataFrame>` object.
+Data is accessed through the :py:mod:`Quandl <quandl>` API stored remotely at sources in the form of CSV (Comma-Separated Values) files. Information retrieved from such a CSV file is then wrapped around a :py:class:`pandas.DataFrame <pandas.DataFrame>` object.
 
-Comma, Seperated, Value?
+Comma, Separated, Value?
 ------------------------
 
-CSV files store tabular data in simple plain text (well, fits the need). Each row containing values associated to each attribute of a table are stored in a single line, where each value is seperated by a delimiter, you guessed it right, a comma. For instance, a data set containing the weight (in kilograms) and height (in inches) of members of my family would look something like the following:
+CSV files store tabular data in simple plain text (well, fits the need). Each row containing values associated to each attribute of a table are stored in a single line, where each value is separated by a delimiter, you guessed it right, a comma. For instance, a data set containing the weight (in kilograms) and height (in inches) of members of my family would look something like the following:
 
 .. code:: raw
 
@@ -36,7 +36,7 @@ CSV files store tabular data in simple plain text (well, fits the need). Each ro
 	68,5.9
 	...
 
-Almost always, the top-most line (also called as *the header*) should denote the attribute names seperated by the delimiter.
+Almost always, the top-most line (also called as *the header*) should denote the attribute names separated by the delimiter.
 
 You can save a share object in a CSV format as follows:
 
